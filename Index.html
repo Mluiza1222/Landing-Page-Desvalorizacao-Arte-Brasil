@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Desvalorização da Arte</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+</head>
+<body>
+    <header>
+        <h1>Desvalorização da arte</h1>
+        <p>Resumo do projeto</p>
+        <button onclick="scrollToSection()">Ver Projeto</button>
+    </header>
+    <section id="sobre">
+        <h2>Sobre o Projeto</h2>
+        <div class="card">
+          <p>Este projeto tem como objetivo analisar a desvalorização da arte na sociedade contemporânea, identificando suas causas, impactos e criar uma solução inteligente por meio de pesquisa e investigação.</p>
+        </div>
+    </section>
+    <section>
+        <h2>Investigação Social</h2>
+        <div class="card">
+          <p>A investigação aborda a desvalorização da arte no Brasil e seus efeitos sobre os jovens. Apesar de sua importância cultural e social, a arte é frequentemente vista como algo secundário. Isso também se reflete na escola, onde a disciplina de Arte recebe pouca relevância. Como consequência, jovens artistas enfrentam desmotivação e insegurança. A falta de reconhecimento gera opressão de ideias e limita a expressão criativa. Um relato evidencia o sentimento de desvalorização e instabilidade diante do sonho artístico. A ausência de apoio social contribui para o enfraquecimento da identidade cultural.</p>
+        </div>
+    </section>
+    <section>
+        <h2>Causa Raiz (5 Porquês)</h2>
+
+        <div class="carousel">
+            <div class="slide active">
+                <p><strong>1º Por quê?</strong></p>
+                <p>Por que o artista é invisibilizado?</p>
+                <p>Porque a sociedade valoriza mais as formas tradicionais de ensino.</p>
+            </div>
+            <div class="slide">
+                <p><strong>2º Por quê?</strong></p>
+                <p>Por que a sociedade valoriza mais as formas tradicionais de ensino?</p>
+                <p>Porque o ensino tradicional garante maior segurança financeira.</p>
+            </div>
+
+            <div class="slide">
+                <p><strong>3º Por quê?</strong></p>
+                <p>Por que o ensino tradicional garante mais segurança financeira?</p>
+                <p>Porque seguir no campo da arte geralmente não traz estabilidade.</p>
+            </div>
+            <div class="slide">
+                <p><strong>4º Por quê?</strong></p>
+                <p>Por que seguir no campo da arte geralmente não traz estabilidade?</p>
+                <p>Porque a arte não é valorizada no Brasil.</p>
+            </div>
+            <div class="slide">
+                <p><strong>5º Por quê?</strong></p>
+                <p>Por que a arte não é valorizada no Brasil?</p>
+                <p>Porque falta incentivo artístico.</p>
+            </div>
+            <div class="slide">
+                <p><strong>6º Por quê?</strong></p>
+                <p>Por que falta incentivo artístico?</p>
+                <p>Por que vivemos em uma sociedade que impõe uma forma social artística.</p>
+            </div>
+            <div class="slide">
+                <p><strong>Conclusão/Causa raiz:</strong></p>
+                <p>Por que vivemos em uma sociedade que impõe uma forma social artística?</p>
+                <p><strong>Porque a elite decidiu privatizar as formas de expressão artística livre, tornando a arte um objeto de consumo.</strong></p>
+            </div>
+            <div class="controls">
+                <button onclick="prevSlide()">⬅</button>
+                <button onclick="nextSlide()">➡</button>
+            </div>
+        </div>
+    </section>
+    <section id="galeria-imagens">
+        <h2>Formulário</h2>
+      
+        <div class="imagem-container">
+          <img id="imagem-galeria" src="" alt="Resultados Formulário" width="400">
+        </div>
+      
+        <button id="btn-anterior">Anterior</button>
+        <button id="btn-proximo">Próxima</button>
+     </section>
+    <section>
+        <h2>Entrevista</h2>
+      
+        <button class="accordion">Qual você considera o maior causador da desvalorização da arte atualmente?</button>
+        <div class="panel"><p>Resposta resumida...</p></div>
+      
+        <button class="accordion">Pergunta 2</button>
+        <div class="panel"><p>Resposta resumida...</p></div>
+      
+        <button class="accordion">Pergunta 3</button>
+        <div class="panel"><p>Resposta resumida...</p></div>
+    </section>
+    <footer>
+        <p>Sla</p>
+    </footer>
+
+    <script src='index.js'></script>
+</body>
+</html>
