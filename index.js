@@ -20,13 +20,25 @@ const btnProximo = document.getElementById('btn-proximo');
 const btnAnterior = document.getElementById('btn-anterior');
 
 const galeria = [
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    ""  
+    "img/Faixa Etária.png",
+    "img/Opinião sobre arte.png",
+    "img/Escolaridade.png",
+    "img/Visão Profissional.png",
+    "img/Opinião Sobre Uso da Arte.png",
+    "img/Uso da arte.png",
+    "img/Frequência uso da arte.png",
+    "img/Eventos.png",
+    "img/Divulgação.png",
+    "img/Compra de Arte.png",
+    "img/Compra de Arte2.png",
+    "img/Valorização da Arte.png",
+    "img/Remuneração.png",
+    "img/Contribuição.png",
+    "img/Desvalorização.png",
+    "img/Valorização2.png",
+    "img/Importância.png",
+    "img/Sugestões.png",
+    "img/Visão Geral.png"
 ];
 
 let indiceAtual = 0;
