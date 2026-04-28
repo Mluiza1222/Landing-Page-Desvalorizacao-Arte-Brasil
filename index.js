@@ -21,7 +21,7 @@ const btnAnterior = document.getElementById('btn-anterior');
 
 const galeria = [
     "img/Faixa Etária.png",
-    "img/Opinião sobre arte.png",
+    "img/Opinião Sobre Arte.png",
     "img/Escolaridade.png",
     "img/Visão Profissional.png",
     "img/Opinião Sobre Uso da Arte.png",
