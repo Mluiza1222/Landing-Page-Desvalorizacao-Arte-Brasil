@@ -37,7 +37,7 @@ const galeria = [
     "img/Desvalorização.png",
     "img/Valorização2.png",
     "img/Importância.png",
-    "img/Sugestões.png",
+    "img/Sujestões.png",
     "img/Visão Geral.png"
 ];
 
