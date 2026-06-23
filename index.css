@@ -136,3 +136,58 @@ footer {
     background: #9ab17a;
     color: white;
 }
+
+#tabela-requisitos {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px auto;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 15px;
+    background-color: #c3cc9b;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+#tabela-requisitos thead {
+    background: #9ab17a;
+    color: white;
+}
+
+#tabela-requisitos th,
+#tabela-requisitos td {
+    padding: 14px 18px;
+    border-bottom: 1px solid #e1866b;
+    text-align: justify;
+    vertical-align: top;
+}
+
+#tabela-requisitos th {
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+#tabela-requisitos tbody tr:nth-child(even) {
+    background-color: #f1e0bf;
+}
+
+#tabela-requisitos tbody tr:hover {
+    background-color: #efe7ff;
+    transition: 0.3s;
+}
+
+#tabela-requisitos td:first-child {
+    width: 60px;
+    text-align: center;
+    font-weight: bold;
+    color: #e1866b;
+}
+
+#tabela-requisitos td:nth-child(2) {
+    width: 50%;
+}
+
+#tabela-requisitos td:nth-child(3) {
+    width: 35%;
+}

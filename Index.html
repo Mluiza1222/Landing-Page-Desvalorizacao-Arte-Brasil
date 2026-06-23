@@ -104,22 +104,118 @@
     </section>
     <section>
         <h2 class="h2">Persona</h2>
-        <h1>Elara Martinez Vasconcellos  </h1>
-        <p>Idade: 16 anos. </p>
+        <h1>Elara Martinez Vasconcellos </h1>
+        <p>Idade: 16 anos.</p>
         <p>Local: Escola pública urbana.</p>
         <p>Classe social: Média-baixa</p>
-        <p>Objetivo: Ter mais contato com arte, cultura e oportunidades criativas. </p>
+        <p>Objetivo: Ter mais contato com arte, cultura e oportunidades criativas.</p>
         <p>Frustração principal: Falta de incentivo e espaço para arte na escola e na sociedade.</p>
 
 
-        <h1>Desafios: </h1>
-        <p>Um principal desafio que Elara enfrenta geralmente é ser ouvida e devidamente entendida. A arte costuma ser subjetiva, e por este motivo, muitas vezes seu modo de se expressar através da arte não é facilmente compreendido socialmente. 
-
-            A jovem artista enfrenta constante desvalorização de sua escolha profissional, principalmente por parte da família e do círculo social, que enxergam a arte como instável ou “não confiável”. Isso gera insegurança, medo de fracassar e pressão para seguir caminhos mais tradicionais. Além disso, a ausência de incentivo emocional e financeiro dificulta seu acesso a formação, materiais e oportunidades, fazendo com que ela questione seu próprio talento e propósito. </p>
-
-            <h1>Objetivo: </h1>
-            <p> Elara Martinez Vasconcellos, representa jovens estudantes de escolas públicas que possuem interesse artístico, mas enfrentam a desvalorização da arte e a falta de oportunidades. Ela simboliza a necessidade de iniciativas acessíveis que incentivem a expressão criativa e promovam a valorização da arte na sociedade. </p>
-        
+        <button class="accordion"><h1>Desafios: </h1></button>
+        <div class="panel"><p>Um principal desafio que Elara enfrenta geralmente é ser ouvida e devidamente entendida. A arte costuma ser subjetiva, e por este motivo, muitas vezes seu modo de se expressar através da arte não é facilmente compreendido socialmente. 
+            A jovem artista enfrenta constante desvalorização de sua escolha profissional, principalmente por parte da família e do círculo social, que enxergam a arte como instável ou “não confiável”. Isso gera insegurança, medo de fracassar e pressão para seguir caminhos mais tradicionais. Além disso, a ausência de incentivo emocional e financeiro dificulta seu acesso a formação, materiais e oportunidades, fazendo com que ela questione seu próprio talento e propósito.</p></div>
+        <button class="accordion"><h1>Necessidades: </h1></button>
+        <div class="panel"><p>Ela precisa de acesso a espaços e iniciativas que valorizem e incentivem a expressão artística dentro e fora da escola, como oficinas, projetos culturais e ambientes seguros para criação. Ela também necessita de reconhecimento e apoio, tanto institucional quanto social, para desenvolver suas habilidades criativas, além de recursos acessíveis que permitam explorar diferentes linguagens artísticas. Mais do que isso, Elara busca pertencimento: sentir que sua voz e sua arte têm espaço e importância, transformando seu interesse em oportunidade real de crescimento pessoal e cultural.</p></div>
+        <button class="accordion"><h1>Motivações: </h1></button>
+        <div class="panel"><p>Elara tem um grande interesse por arte, cultura e formas de expressão criativa. Mesmo com poucos recursos, ela busca maneiras de se conectar com a arte, através da internet, redes sociais ou atividades no dia a dia. 
+            Por estar exposta a conteúdos artísticos online quase 100% do tempo, ela reflete sobre a importância da arte para a sociedade e para o desenvolvimento pessoal. Isso faz com que ela queira mais oportunidades para aprender, criar e se expressar.</p></div>
+        <button class="accordion"><h1>Objetivo: </h1></button>
+        <div class="panel"><p> Elara Martinez Vasconcellos, representa jovens estudantes de escolas públicas que possuem interesse artístico, mas enfrentam a desvalorização da arte e a falta de oportunidades. Ela simboliza a necessidade de iniciativas acessíveis que incentivem a expressão criativa e promovam a valorização da arte na sociedade.</p></div>
+    </section>
+    <section>
+        <h2 class="h2">Levantamento de Requisitos</h2>
+        <table id="tabela-requisitos">
+            <thead>
+            <tr>
+                <td>#</td>
+                <td><h3>Requisitos funcionais</h3></td>
+                <td><h3>Requisitos não funcionais</h3></td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>O sistema deve permitir criar e excluir a conta.</td>
+                <td>Usabilidade.</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>O sistema deve permitir o cadastro de usuários (artistas e compradores).</td>
+                <td>Acessibilidade.</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>O sistema deve permitir login e logout de usuários.</td>
+                <td>Performance rápida.</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>O artista deve poder cadastrar, editar e excluir suas obras de arte.</td>
+                <td>Responsividade para diversos dispositivos.</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>O sistema deve exibir um catálogo de obras com imagens, descrição, preço e autor.</td>
+                <td>O sistema deve garantir a segurança dos dados dos usuários (criptografia de senha).</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>O usuário deve poder pesquisar obras por nome, categoria ou artista.</td>
+                <td>O sistema deve seguir as diretrizes da LGPD (proteção de dados).</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>O sistema deve permitir a compra de obras de arte.</td>
+                <td>O sistema deve ter integração com meios de pagamento seguros.</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>O sistema deve disponibilizar formas de pagamento (cartão, PIX).</td>
+                <td>O sistema deve ser compatível com os principais navegadores (Chrome, Firefox, Edge).</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>O sistema deve permitir a divulgação de eventos artísticos (data, local, descrição).</td>
+                <td>O tempo de carregamento das páginas deve ser inferior a 3 segundos.</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>O sistema deve exibir perfis de artistas com suas informações e portfólio.</td>
+                <td>A interface deve ser intuitiva.</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>O usuário deve poder favoritar obras e artistas.</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>O sistema deve permitir avaliações/comentários sobre obras ou artistas.</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>O sistema deve enviar notificações sobre novos eventos ou obras.</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>As obras próprias devem ser apresentadas no perfil de cada usuário.</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Chat de conversa entre os usuários.</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>Seleção de idioma.</td>
+                <td></td>
+            </tr>
+            </tbody>
+        </table>
     </section>
     <footer>
         <p>Ana Karoline Maria Luiza Vivian Maria </p>
