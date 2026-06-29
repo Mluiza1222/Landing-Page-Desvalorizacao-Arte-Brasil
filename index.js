@@ -85,3 +85,51 @@ function prevSlide() {
 // deixa funções globais (pra funcionar no onclick)
 window.nextSlide = nextSlide;
 window.prevSlide = prevSlide;
+
+// Estilo
+
+const descricoes = {
+    "verde-oliva": {
+        titulo: "Verde Oliva Suave",
+        texto: "Escolhemos essa cor base porque representa equilíbrio, natureza e tranquilidade. Seu tom levemente envelhecido reforça a estética vintage e transmite uma sensação acolhedora e artística."
+    },
+
+    "verde-salvia": {
+        titulo: "Verde Sálvia Claro",
+        texto: "Esse tom de verde mais claro traz leveza e suavidade para a identidade visual. A tonalidade delicada ajuda a criar uma atmosfera calma e clássica, muito presente em estilos vintage como nossa aplicação."
+    },
+
+    "terracota": {
+        titulo: "Terracota Suave",
+        texto: "Esse tom mais escuro é o ponto de destaque da nossa paleta, transmitindo energia e inspiração. O tom terroso mantém a proposta vintage da aplicação sem criar contraste excessivo."
+    },
+
+    "branco-creme": {
+        titulo: "Branco Creme",
+        texto: "Essa cor substitui o branco puro por um tom mais quente e aconchegante, lembrando papel antigo e elementos retrô, além de manter a leveza do design."
+    },
+
+    "pessego": {
+        titulo: "Pêssego Queimado",
+        texto: "Essa cor traz calor e personalidade sem perder a suavidade. Reforça o lado criativo e artesanal da identidade, contrastando com os tons de verde."
+    },
+
+    "bege": {
+        titulo: "Bege Pêssego Claro",
+        texto: "Essa cor suave adiciona conforto e delicadeza à paleta. Seu aspecto contribui para uma aparência elegante e harmoniosa do projeto."
+    }
+};
+
+const circulos = document.querySelectorAll(".circulo");
+const descricao = document.getElementById("descricao-cor");
+
+circulos.forEach(circulo => {
+    circulo.addEventListener("click", () => {
+        const cor = descricoes[circulo.dataset.cor];
+
+        descricao.innerHTML = `
+            <h3>${cor.titulo}</h3>
+            <p>${cor.texto}</p>
+        `;
+    });
+});
